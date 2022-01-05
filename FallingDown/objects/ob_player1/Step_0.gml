@@ -8,5 +8,7 @@ if (y > room_height/2)
 	gravity = 0;
 }
 
-hspeed = sign(mouse_x - mouse_x_prev)*12;
+var delta = mouse_x - mouse_x_prev;
+if (delta >= 5) hspeed = sign(delta)*12;
+else hspeed = 0;
 mouse_x_prev = mouse_x;

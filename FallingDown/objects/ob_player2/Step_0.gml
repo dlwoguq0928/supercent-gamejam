@@ -8,4 +8,6 @@ if (y > room_height/2)
 	gravity = 0;
 }
 
-hspeed = - device_get_tilt_x() * 20;
+var delta = device_get_tilt_x();
+if (delta >= 0.1) hspeed = - sign(delta) * 12;
+else hspeed = 0;
