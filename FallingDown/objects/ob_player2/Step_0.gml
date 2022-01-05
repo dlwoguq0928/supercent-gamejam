@@ -9,5 +9,5 @@ if (y > room_height/2)
 }
 
 var delta = device_get_tilt_x();
-if (delta >= 0.1) hspeed = - sign(delta) * 12;
+if (abs(delta) >= 0.1) hspeed = - sign(delta) * 12;
 else hspeed = 0;
