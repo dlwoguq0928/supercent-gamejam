@@ -8,4 +8,4 @@ if (y > room_height/2)
 	gravity = 0;
 }
 
-hspeed = device_get_tilt_x() * 5;
+hspeed = - device_get_tilt_x() * 20;
