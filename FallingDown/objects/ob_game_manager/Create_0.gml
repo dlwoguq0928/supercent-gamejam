@@ -10,6 +10,7 @@ gameval = {
 	//#	money: 0,
 	//#
 	
+	started:false,
 };
 
 //# Load the Game Data If It Is
