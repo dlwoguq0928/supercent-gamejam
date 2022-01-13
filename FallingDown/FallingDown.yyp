@@ -31,6 +31,7 @@
     {"id":{"name":"ob_btn_settings","path":"objects/ob_btn_settings/ob_btn_settings.yy",},"order":2,},
     {"id":{"name":"spr_btn_online_load","path":"sprites/spr_btn_online_load/spr_btn_online_load.yy",},"order":6,},
     {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"order":1,},
+    {"id":{"name":"ob_btn_setting_toggle","path":"objects/ob_btn_setting_toggle/ob_btn_setting_toggle.yy",},"order":7,},
     {"id":{"name":"GooglePlayBillingExtension","path":"extensions/GooglePlayBillingExtension/GooglePlayBillingExtension.yy",},"order":3,},
     {"id":{"name":"GooglePlayService","path":"extensions/GooglePlayService/GooglePlayService.yy",},"order":5,},
     {"id":{"name":"snd_play_efs","path":"scripts/snd_play_efs/snd_play_efs.yy",},"order":0,},

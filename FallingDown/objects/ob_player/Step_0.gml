@@ -64,7 +64,7 @@ if (gameval.started)
 	// 좌/우 이동 type 2
 	if (settval.control_type == 1)
 	{
-		var delta = device_get_tilt_x();
+		var delta = -device_get_tilt_x();
 		if (abs(delta) >= 0.1) hspeed = sign(delta)*12;
 		else hspeed = 0;
 	}

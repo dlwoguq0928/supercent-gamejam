@@ -29,6 +29,17 @@ else
 {
 	if keyboard_check_pressed(vk_backspace)
 	{
-		room_goto_previous();
+		switch(room)
+		{
+			default:
+				room_goto_previous();
+				break;
+			case rm_settings:
+				room_goto(rm_main);
+				break;
+			case rm_game:
+				room_goto(rm_main);
+				break;
+		}
 	}
 }
