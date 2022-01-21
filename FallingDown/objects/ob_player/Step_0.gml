@@ -28,6 +28,7 @@ if (gameval.started)
 			jump_gage -= jump_gage_required;
 		
 			jump = true;
+			sprite_index = spr_player_boomb;
 			gravity = -0.1;
 			alarm[0] = room_speed*0.5;
 		}
@@ -68,6 +69,9 @@ if (gameval.started)
 		if (abs(delta) >= 0.1) hspeed = sign(delta)*12;
 		else hspeed = 0;
 	}
+	
+	// 좌/우 이미지 방향 전환
+	if (hspeed != 0) image_xscale = sign(hspeed);
 
 
 }
