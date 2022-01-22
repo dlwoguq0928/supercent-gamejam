@@ -2,9 +2,9 @@
 
 
 // 낙하 시 화면 중앙에 고정
-if (y > room_height/2)
+if (y > 320)
 {
-	y = room_height/2;
+	y = 320;
 	vspeed = 0;
 	gravity = 0;
 	

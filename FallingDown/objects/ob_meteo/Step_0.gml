@@ -18,11 +18,13 @@ else
 }
 
 // alpha 값 조정 
+/*
 if (y - ob_player.y <= 0)
 {
 	image_alpha = 0.5;
 	valid = false;
 }
+*/
 
 //운석 회전 
 var rotate_toggle = sign(hspeed);

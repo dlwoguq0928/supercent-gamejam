@@ -4,13 +4,10 @@
 //# Game Values
 globalvar gameval;
 gameval = {
-	
-	//#
-	//# Add Your Game Variables Like:
-	//#	money: 0,
-	//#
-	
-	started:false,
+	started: false,
+	coin: 0,
+	diamond: 0,
+	level: 1,
 };
 
 //# Load the Game Data If It Is
