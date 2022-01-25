@@ -28,8 +28,8 @@ if (room == rm_game)
 	// 점프 게이지 UI
 	draw_instant(function() {
 		var ratio = jump_gage/jump_gage_max;
-		draw_set_colour(c_red);
-		draw_roundrect_ext(680,440-240*(ratio),700,440,20,20,false);
+		draw_set_colour(c_aqua);
+		draw_roundrect_ext(690,440-280*(ratio),710,440,20,20,false);
 	});
 
 }

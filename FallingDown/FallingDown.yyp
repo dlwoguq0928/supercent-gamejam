@@ -55,6 +55,7 @@
     {"id":{"name":"ft_pt_25","path":"fonts/ft_pt_25/ft_pt_25.yy",},"order":4,},
     {"id":{"name":"ob_btn_setting_reset","path":"objects/ob_btn_setting_reset/ob_btn_setting_reset.yy",},"order":5,},
     {"id":{"name":"spr_btn","path":"sprites/spr_btn/spr_btn.yy",},"order":1,},
+    {"id":{"name":"Haptics","path":"extensions/Haptics/Haptics.yy",},"order":6,},
     {"id":{"name":"particle_generate","path":"scripts/particle_generate/particle_generate.yy",},"order":4,},
     {"id":{"name":"bg_example","path":"sprites/bg_example/bg_example.yy",},"order":0,},
     {"id":{"name":"ob_btn_setting_bgm_volume_up","path":"objects/ob_btn_setting_bgm_volume_up/ob_btn_setting_bgm_volume_up.yy",},"order":1,},
@@ -169,6 +170,8 @@
     {"CopyToMask":-1,"filePath":"datafiles/fonts","resourceVersion":"1.0","name":"NanumGothicBold.ttf","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/fonts","resourceVersion":"1.0","name":"NanumGothicExtraBold.ttf","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/fonts","resourceVersion":"1.0","name":"NanumGothicLight.ttf","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Haptics_SDK26.java","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"Haptics_SDK26.java","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.6.595",

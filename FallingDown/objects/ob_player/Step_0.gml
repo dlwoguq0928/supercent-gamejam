@@ -11,7 +11,6 @@ if (y > 320)
 	gameval.started = true;
 }
 
-
 if (gameval.started)
 {
 	// 점프 게이지 충전
@@ -72,6 +71,5 @@ if (gameval.started)
 	
 	// 좌/우 이미지 방향 전환
 	if (hspeed != 0) image_xscale = sign(hspeed);
-
 
 }

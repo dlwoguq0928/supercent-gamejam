@@ -19,3 +19,6 @@ alarm[0] = 10;
 
 //# Randomize
 randomize();
+
+//# Haptic Init
+Haptics_Init();
