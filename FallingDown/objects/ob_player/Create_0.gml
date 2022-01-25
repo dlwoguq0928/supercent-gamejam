@@ -12,4 +12,4 @@ globalvar jump, jump_gage, jump_gage_max, jump_gage_required;
 jump = false;
 jump_gage_max = 100;
 jump_gage = jump_gage_max;
-jump_gage_required = 50;
+jump_gage_required = 100;

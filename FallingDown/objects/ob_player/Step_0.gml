@@ -17,7 +17,7 @@ if (gameval.started)
 	// 점프 게이지 충전
 	if (jump_gage < jump_gage_max)
 	{
-		jump_gage += 1/3;
+		jump_gage += 1;
 	}
 
 	// 점프
