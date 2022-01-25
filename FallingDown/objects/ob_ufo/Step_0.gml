@@ -4,9 +4,11 @@
 event_inherited();
 
 
-// 개쩌는 진자운동 코드
-image_angle += pendulum_speed*pendulum_toggle;
-if (abs(angle_difference(0,image_angle)) >= pendulum_angle/2)
+// 진자운동
+pendulum_angle += pendulum_speed*pendulum_toggle;
+if (abs(pendulum_angle) > pendulum_range/2)
 {
-	pendulum_toggle = !pendulum_toggle;
+	pendulum_angle = sign(pendulum_angle)*pendulum_range/2;
+	pendulum_toggle = -pendulum_toggle;
 }
+image_angle = pendulum_angle;
