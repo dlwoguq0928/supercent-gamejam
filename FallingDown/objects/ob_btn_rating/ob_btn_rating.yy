@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "main",
-    "path": "folders/Objects/main.yy",
+    "path": "folders/Objects/ingame/main.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_btn_rating",

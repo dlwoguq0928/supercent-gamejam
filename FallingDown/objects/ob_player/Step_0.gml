@@ -37,7 +37,7 @@ if (gameval.started)
 	// 점프 중일 때 장애물 위치 조정
 	if (jump)
 	{
-		with(ob_cloud)
+		with(ob_parent_obstacle)
 		{
 			y -= other.vspeed;
 		}

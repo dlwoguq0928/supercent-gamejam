@@ -26,3 +26,6 @@ if (y - ob_player.y <= 0)
 }
 
 */
+
+//이미지 방향 전환
+if (hspeed != 0) image_xscale = sign(hspeed);

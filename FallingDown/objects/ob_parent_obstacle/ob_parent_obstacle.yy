@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cloud",
-    "path": "sprites/spr_cloud/spr_cloud.yy",
+    "name": "spr_obstacle_example",
+    "path": "sprites/spr_obstacle_example/spr_obstacle_example.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
     "path": "folders/Objects/ingame.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_cloud",
+  "name": "ob_parent_obstacle",
   "tags": [],
   "resourceType": "GMObject",
 }

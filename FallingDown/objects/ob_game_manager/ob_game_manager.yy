@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "main",
-    "path": "folders/Objects/main.yy",
+    "name": "ingame",
+    "path": "folders/Objects/ingame.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_game_manager",

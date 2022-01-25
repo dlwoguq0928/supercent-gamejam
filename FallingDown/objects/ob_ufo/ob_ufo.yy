@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_btn_share",
-    "path": "sprites/spr_btn_share/spr_btn_share.yy",
+    "name": "spr_ufo",
+    "path": "sprites/spr_ufo/spr_ufo.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "ob_parent_btn",
-    "path": "objects/ob_parent_btn/ob_parent_btn.yy",
+    "name": "ob_parent_obstacle",
+    "path": "objects/ob_parent_obstacle/ob_parent_obstacle.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,16 +25,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "main",
-    "path": "folders/Objects/ingame/main.yy",
+    "name": "obstacles",
+    "path": "folders/Objects/ingame/obstacles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_btn_share",
+  "name": "ob_ufo",
   "tags": [],
   "resourceType": "GMObject",
 }
