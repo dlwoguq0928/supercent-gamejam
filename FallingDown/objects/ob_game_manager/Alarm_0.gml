@@ -11,7 +11,7 @@ if (room == rm_game)
 	{
 		default:	break;
 		case 0:	//멈춤
-			var cr_x = random(room_width);
+			var cr_x = random_range(125,room_width-125);
 			var cr_y = room_height+32;
 			var cr_ob = choose(ob_meteo,ob_antenna,ob_ufo,ob_space_junk);
 			var inst = instance_create_layer(cr_x,cr_y,"Instances",cr_ob);
@@ -25,7 +25,7 @@ if (room == rm_game)
 			break;
 		case 2: //우->좌
 			var cr_x = room_width+125;
-			var cr_y = room_height+32;
+			var cr_y = room_height+125;
 			var cr_ob = choose(ob_meteo,ob_antenna,ob_ufo,ob_space_junk);
 			var inst = instance_create_layer(cr_x,cr_y,"Instances",cr_ob);
 			inst.hspeed = -5;
