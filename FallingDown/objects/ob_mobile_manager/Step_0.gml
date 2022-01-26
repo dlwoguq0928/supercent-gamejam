@@ -38,7 +38,8 @@ else
 				room_goto(rm_main);
 				break;
 			case rm_game:
-				room_goto(rm_main);
+				//room_goto(rm_main);
+				game_ready();
 				break;
 			case rm_shop:
 				room_goto(rm_main);
