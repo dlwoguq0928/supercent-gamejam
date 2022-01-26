@@ -10,11 +10,11 @@ if position_meeting(mouse_x,mouse_y,id)
 }
 
 // 자신 or UI 제외 터치하면 게임 시작
-if mouse_check_button_released(mb_left)
+if mouse_check_button_pressed(mb_left)
 {
 	var inst = instance_position(mouse_x,mouse_y,id);
 	if (inst == id || inst == noone)
 	{
-		room_goto(rm_game);
+		game_start();
 	}
 }

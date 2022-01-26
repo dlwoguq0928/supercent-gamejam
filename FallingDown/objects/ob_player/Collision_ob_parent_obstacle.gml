@@ -7,5 +7,12 @@
 // 장애물과 충돌 시 진동
 if Haptics_HasVibrator()
 {
-	Haptics_Vibrate(250);
+	if (!other.vibrated)
+	{
+		other.vibrated = true;
+		Haptics_Vibrate(250);
+	}
 }
+
+// 게임오버
+game_over();

@@ -9,4 +9,5 @@ font_added = {
 	font_25: ft_pt_25,
 	font_32: ft_pt_32,
 	font_40: ft_pt_40,
+	font_64: ft_pt_64,
 }

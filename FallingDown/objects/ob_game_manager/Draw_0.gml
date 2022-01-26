@@ -20,10 +20,7 @@ or (room == rm_shop)
 			draw_text(160,230,string_unit(su.comma,gameval.diamond));
 		});
 	});
-}
-
-if (room == rm_game)
-{
+	
 	//# Level 표시 UI
 	draw_instant(function() {
 		draw_set_alpha(0.5);
@@ -35,8 +32,18 @@ if (room == rm_game)
 			draw_text(room_width/2,160,"Level "+string_unit(su.comma,gameval.level));
 		});
 	});
-	
+}
 
+if (room == rm_game)
+{
+	// 떨어진 거리
+	draw_instant(function() {
+		var ratio = distance_now/distance_max;
+		draw_set_colour(c_white);
+		draw_line_width(20,120,700,120,3);
+		draw_circle(20+680*ratio,120,3,false);
+	});
+	
 	// 점프 게이지 UI
 	draw_instant(function() {
 		var ratio = jump_gage/jump_gage_max;

@@ -4,31 +4,36 @@
 alarm[0] = 90;
 
 
+var rand;
 if (room == rm_game)
 {
-	var rand = irandom(2);
+	var cr_ob;
+	rand = random(19);
+	if (rand <= 10.5) cr_ob = ob_meteo;
+	else if (rand <= 15) cr_ob = choose(ob_antenna,ob_ufo,ob_space_junk,ob_blackhole);
+	else if (rand <= 18) cr_ob = ob_coin;
+	else cr_ob = ob_diamond;
+	
+	rand = irandom(2);
 	switch(rand)
 	{
 		default:	break;
 		case 0:	//멈춤
 			var cr_x = random_range(125,room_width-125);
 			var cr_y = room_height+32;
-			var cr_ob = choose(ob_meteo,ob_antenna,ob_ufo,ob_space_junk);
 			var inst = instance_create_layer(cr_x,cr_y,"Instances",cr_ob);
 			break;
 		case 1: //좌->우
 			var cr_x = 0-125;
 			var cr_y = room_height+125;
-			var cr_ob = choose(ob_meteo,ob_antenna,ob_ufo,ob_space_junk);
 			var inst = instance_create_layer(cr_x,cr_y,"Instances",cr_ob);
-			inst.hspeed = 5;
+			inst.hspeed = abs(inst.hspeed);
 			break;
 		case 2: //우->좌
 			var cr_x = room_width+125;
 			var cr_y = room_height+125;
-			var cr_ob = choose(ob_meteo,ob_antenna,ob_ufo,ob_space_junk);
 			var inst = instance_create_layer(cr_x,cr_y,"Instances",cr_ob);
-			inst.hspeed = -5;
+			inst.hspeed = -abs(inst.hspeed);
 			break;
 	}
 }
