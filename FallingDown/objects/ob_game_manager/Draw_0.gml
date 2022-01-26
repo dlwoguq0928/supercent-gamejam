@@ -1,6 +1,7 @@
 /// @descr 
 
 if (room == rm_main)
+or (room == rm_shop)
 {
 	//# 코인, 다이아몬드 UI
 	draw_instant(function() {
