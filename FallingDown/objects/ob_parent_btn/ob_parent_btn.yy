@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "main",
-    "path": "folders/Objects/ingame/main.yy",
+    "path": "folders/Objects/main.yy",
   },
   "resourceVersion": "1.0",
   "name": "ob_parent_btn",

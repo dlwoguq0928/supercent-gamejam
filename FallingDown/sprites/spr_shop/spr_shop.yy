@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "main",
-    "path": "folders/Sprites/ingame/main.yy",
+    "path": "folders/Sprites/main.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_shop",

@@ -5,9 +5,11 @@
 globalvar gameval;
 gameval = {
 	started: false,
-	coin: 0,
+	coin: 10000,
 	diamond: 0,
 	level: 1,
+	character_selected: 0,
+	character_having: [true,false],
 };
 
 //# Load the Game Data If It Is
