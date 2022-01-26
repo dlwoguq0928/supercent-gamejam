@@ -40,6 +40,9 @@ else
 			case rm_game:
 				room_goto(rm_main);
 				break;
+			case rm_shop:
+				room_goto(rm_main);
+				break;
 		}
 	}
 }

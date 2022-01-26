@@ -7,7 +7,7 @@ globalvar sysval;
 sysval = {
 	save_path: "game.data",
 	settings_save_path: "game_settings.data",
-	game_package: "kr.physia.template",
+	game_package: "com.reborn.fallingdown",
 	store_url: "",
 };
 sysval.store_url = "https://play.google.com/store/apps/details?id="+sysval.game_package;

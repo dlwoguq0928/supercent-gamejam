@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"03726699-a66f-40e6-b71a-0245e1d30ef2","path":"sprites/spr_btn_setting/spr_btn_setting.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"03726699-a66f-40e6-b71a-0245e1d30ef2","path":"sprites/spr_btn_setting/spr_btn_setting.yy",},"LayerId":{"name":"e506c59e-ccd9-44ac-ba55-39020bb39935","path":"sprites/spr_btn_setting/spr_btn_setting.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_btn_setting","path":"sprites/spr_btn_setting/spr_btn_setting.yy",},"resourceVersion":"1.0","name":"03726699-a66f-40e6-b71a-0245e1d30ef2","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"94b7a564-943b-4705-a50d-7f5f8a08992d","path":"sprites/spr_coin/spr_coin.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"94b7a564-943b-4705-a50d-7f5f8a08992d","path":"sprites/spr_coin/spr_coin.yy",},"LayerId":{"name":"d2a60976-e282-4658-8f1a-11ebfcaf43e3","path":"sprites/spr_coin/spr_coin.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},"resourceVersion":"1.0","name":"94b7a564-943b-4705-a50d-7f5f8a08992d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_btn_setting","path":"sprites/spr_btn_setting/spr_btn_setting.yy",},
+    "spriteId": {"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"e2ec9bea-58ef-435c-9b25-f376f972666b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"03726699-a66f-40e6-b71a-0245e1d30ef2","path":"sprites/spr_btn_setting/spr_btn_setting.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"cd3c86fe-9b90-453f-b7a0-b03c71eb2598","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"94b7a564-943b-4705-a50d-7f5f8a08992d","path":"sprites/spr_coin/spr_coin.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_btn_setting","path":"sprites/spr_btn_setting/spr_btn_setting.yy",},
+    "parent": {"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_btn_setting",
+    "name": "spr_coin",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e506c59e-ccd9-44ac-ba55-39020bb39935","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d2a60976-e282-4658-8f1a-11ebfcaf43e3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/main.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_btn_setting",
+  "name": "spr_coin",
   "tags": [],
   "resourceType": "GMSprite",
 }

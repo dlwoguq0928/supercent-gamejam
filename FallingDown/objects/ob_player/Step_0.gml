@@ -48,7 +48,7 @@ if (gameval.started)
 		layer_vspeed("Background",-5);
 	}
 
-	// 좌/우 이동 type 1
+	// 좌/우 이동 type 1 (슬라이드 방식)
 	if (settval.control_type == 0)
 	{
 		var delta = mouse_x - mouse_x_prev[9];
@@ -61,11 +61,11 @@ if (gameval.started)
 		}
 	}
 
-	// 좌/우 이동 type 2
+	// 좌/우 이동 type 2 (기울기 방식)
 	if (settval.control_type == 1)
 	{
 		var delta = -device_get_tilt_x();
-		if (abs(delta) >= 0.1) hspeed = sign(delta)*12;
+		if (abs(delta) >= 0.02) hspeed = sign(delta)*12;
 		else hspeed = 0;
 	}
 	
