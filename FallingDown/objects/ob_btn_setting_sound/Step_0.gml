@@ -12,3 +12,6 @@ if position_meeting(mouse_x,mouse_y,id)
 		btn_func();
 	}
 }
+
+//토글 이미지 변경
+image_index = settval.sound;

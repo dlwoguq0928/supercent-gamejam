@@ -31,6 +31,12 @@ and (game_status == 1)
 			sprite_index = spr_player_boomb;
 			//gravity = -0.1;
 			alarm[0] = room_speed*0.5;
+			
+			// EFS 재생
+			if (settval.sound)
+			{
+				audio_play_sound(snd_efs_jump,1,false);
+			}
 		}
 	}
 
