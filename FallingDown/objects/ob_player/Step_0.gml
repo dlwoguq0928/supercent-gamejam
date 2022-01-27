@@ -2,9 +2,9 @@
 
 
 // 낙하 시 화면 중앙에 고정
-if (y > 320)
+if (y > 480)
 {
-	y = 320;
+	y = 480;
 	vspeed = 0;
 	gravity = 0;
 	
@@ -12,6 +12,7 @@ if (y > 320)
 }
 
 if (gameval.started)
+and (game_status == 1)
 {
 	// 점프 게이지 충전
 	if (jump_gage < jump_gage_max)
@@ -20,7 +21,7 @@ if (gameval.started)
 	}
 
 	// 점프
-	if mouse_check_button_released(mb_left)
+	if mouse_check_button_pressed(mb_left)
 	{
 		if (jump_gage >= jump_gage_required)
 		{
@@ -28,7 +29,7 @@ if (gameval.started)
 		
 			jump = true;
 			sprite_index = spr_player_boomb;
-			gravity = -0.1;
+			//gravity = -0.1;
 			alarm[0] = room_speed*0.5;
 		}
 	}
@@ -72,4 +73,8 @@ if (gameval.started)
 	// 좌/우 이미지 방향 전환
 	if (hspeed != 0) image_xscale = sign(hspeed);
 
+}
+else
+{
+	image_speed = 0;
 }

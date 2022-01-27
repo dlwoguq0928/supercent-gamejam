@@ -1,6 +1,6 @@
 {
   "option_android_sync_amazon": false,
-  "option_android_display_name": "Falling Down",
+  "option_android_display_name": "Free Fall",
   "option_android_version": "1.0.0.0",
   "option_android_tools_from_version": false,
   "option_android_build_tools": "30.0.0",
@@ -10,7 +10,7 @@
   "option_android_compile_sdk": "30",
   "option_android_package_domain": "com",
   "option_android_package_company": "reborn",
-  "option_android_package_product": "fallingdown",
+  "option_android_package_product": "freefall",
   "option_android_arch_armv7": true,
   "option_android_arch_x86": true,
   "option_android_arch_arm64": true,

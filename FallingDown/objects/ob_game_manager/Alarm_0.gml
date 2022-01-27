@@ -1,7 +1,7 @@
 /// @descr 
 
 //# 장애물 생성 루프
-alarm[0] = 90;
+alarm[0] = 90 * power(0.9,gameval.level - 1);
 
 
 var rand;
@@ -10,7 +10,7 @@ if (room == rm_game)
 	var cr_ob;
 	rand = random(19);
 	if (rand <= 10.5) cr_ob = ob_meteo;
-	else if (rand <= 15) cr_ob = choose(ob_antenna,ob_ufo,ob_space_junk,ob_blackhole);
+	else if (rand <= 15) cr_ob = choose(ob_antenna,ob_ufo,ob_space_junk,ob_space_junk_2,ob_space_junk_3,ob_blackhole);
 	else if (rand <= 18) cr_ob = ob_coin;
 	else cr_ob = ob_diamond;
 	

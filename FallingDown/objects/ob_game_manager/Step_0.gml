@@ -21,4 +21,10 @@ if (game_status == 2 || game_status == 3)
 	{
 		game_ready();
 	}
+	
+	// 게임 일시중지
+	with(ob_parent_obstacle) speed = 0;
+	with(ob_coin) speed = 0;
+	with(ob_diamond) speed = 0;
+	layer_vspeed("Background",0);
 }

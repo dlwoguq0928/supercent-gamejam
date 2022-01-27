@@ -2,4 +2,4 @@
 
 jump = false;
 sprite_index = spr_player;
-gravity = 0.1;
+//gravity = 0.1;

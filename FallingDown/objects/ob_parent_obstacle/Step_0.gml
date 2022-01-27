@@ -1,19 +1,24 @@
 /// @descr 
 
-// 점프 연출
-if (jump)
+
+if (game_status == 1)
 {
-	vspeed = 0;
-}
-else
-{
-	if (vspeed > -10)
+	if (jump)
 	{
-		vspeed -= 1;
+		// 점프 연출
+		vspeed = 0;
 	}
 	else
 	{
-		vspeed = -10;
+		// 낙하 연출
+		if (vspeed > -10)
+		{
+			vspeed -= 1;
+		}
+		else
+		{
+			vspeed = -10;
+		}
 	}
 }
 

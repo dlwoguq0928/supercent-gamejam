@@ -1,7 +1,7 @@
 /// @descr 
 
 gravity_direction = 270;
-gravity = 1;
+gravity = 0.1;
 
 for(i=0;i<10;i++)
 {

@@ -5,12 +5,15 @@
 // x += sign(dt_x)*100;
 
 // 장애물과 충돌 시 진동
-if Haptics_HasVibrator()
+if (settval.haptics)
 {
-	if (!other.vibrated)
+	if Haptics_HasVibrator()
 	{
-		other.vibrated = true;
-		Haptics_Vibrate(250);
+		if (!other.vibrated)
+		{
+			other.vibrated = true;
+			Haptics_Vibrate(250);
+		}
 	}
 }
 
