@@ -31,3 +31,5 @@ purchase_func = function () {
 }
 
 btn_status = false;  //false: purchase, true: select
+
+o_x = x;

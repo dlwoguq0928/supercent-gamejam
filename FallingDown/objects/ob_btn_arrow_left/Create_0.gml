@@ -10,7 +10,5 @@ btn_func = function() {
 	if (visible)
 	{
 		shop_page = max(0,shop_page-1);
-		with(ob_character) x += 720;
-		with(ob_btn_purchase) x += 720;
 	}
 }
