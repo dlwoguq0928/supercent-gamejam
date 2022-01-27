@@ -1,7 +1,9 @@
 /// @descr 
 
 
-audio_stop_all();
+audio_stop_sound(snd_bgm_game);
+audio_stop_sound(snd_bgm_main);
+audio_stop_sound(snd_bgm_shop);
 
 // BGM 재생
 if (settval.sound)

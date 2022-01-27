@@ -3,7 +3,12 @@
 function game_clear(){
 	game_status = 3;
 	
+	var add_val = 10 + 10*(gameval.level - 1);
+	gameval.coin += add_val;
+	delta_coin += add_val;
+	
 	gameval.level += 1;
+	
 	distance_now = 0;
 }
 
@@ -18,7 +23,7 @@ function game_start(){
 	
 	room_goto(rm_game);
 	distance_now = 0;
-	distance_max = 10 + 5*(gameval.level - 1);
+	distance_max = 10 + 2*(gameval.level - 1);
 }
 
 function game_ready(){

@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_efs_click.wav",
-  "duration": 0.250295,
+  "duration": 3.235578,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

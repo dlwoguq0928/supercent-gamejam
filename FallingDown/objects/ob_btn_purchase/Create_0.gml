@@ -17,6 +17,12 @@ btn_func = function() {
 		//select
 		gameval.character_selected = character_index;
 	}
+	
+	// EFS 재생
+	if (settval.sound)
+	{
+		audio_play_sound(snd_efs_click,1,false);
+	}
 }
 
 purchase_func = function () {
