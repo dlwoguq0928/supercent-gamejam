@@ -29,6 +29,10 @@ delta_diamond = 0;
 globalvar game_status;
 game_status = 0; //0:ready, 1:playing, 2:over, 3:clear
 
+//# 상점 페이지 변수
+globalvar shop_page;
+shop_page = 0;
+
 //# 구름 생성 루프
 alarm[0] = 10;
 
