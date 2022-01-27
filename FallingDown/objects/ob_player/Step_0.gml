@@ -28,7 +28,7 @@ and (game_status == 1)
 			jump_gage -= jump_gage_required;
 		
 			jump = true;
-			sprite_index = spr_player_boomb;
+			sprite_index = my_sprite_jump;
 			//gravity = -0.1;
 			alarm[0] = room_speed*0.5;
 			
