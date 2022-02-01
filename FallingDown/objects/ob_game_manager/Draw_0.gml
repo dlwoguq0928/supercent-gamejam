@@ -60,8 +60,8 @@ if (room == rm_game)
 	draw_instant(function() {
 		var ratio = distance_now/distance_max;
 		draw_set_colour(c_white);
-		draw_line_width(80,120,640,120,5);
-		draw_circle(80+560*ratio,120,10,false);
+		draw_sprite(spr_distbar,0,360,120);
+		draw_sprite(spr_distbar_tokens,gameval.character_selected,360-262+524*ratio,120);
 	});
 	
 	// 점프 게이지 UI

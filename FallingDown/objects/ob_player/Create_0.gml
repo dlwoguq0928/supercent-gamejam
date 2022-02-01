@@ -31,4 +31,14 @@ switch(gameval.character_selected)
 		my_sprite_jump = spr_player_1_jump;
 		sprite_index = my_sprite;
 		break;
+	case 2:
+		my_sprite = spr_player_2;
+		my_sprite_jump = spr_player_2_jump;
+		sprite_index = my_sprite;
+		break;
+	case 3:
+		my_sprite = spr_player_3;
+		my_sprite_jump = spr_player_3_jump;
+		sprite_index = my_sprite;
+		break;
 }

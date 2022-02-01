@@ -9,7 +9,7 @@ gameval = {
 	diamond: 0,
 	level: 1,
 	character_selected: 0,
-	character_having: [true,false],
+	character_having: [true,false,false,false,false,false,false,false,false,false,false,false,false],
 };
 
 //# Load the Game Data If It Is

@@ -148,8 +148,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "backgrounds",
-    "path": "folders/Sprites/ingame/backgrounds.yy",
+    "name": "backgrouds",
+    "path": "folders/Sprites/ingame/backgrouds.yy",
   },
   "resourceVersion": "1.0",
   "name": "bg_example",

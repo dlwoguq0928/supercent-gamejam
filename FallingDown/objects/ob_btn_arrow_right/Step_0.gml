@@ -4,4 +4,4 @@
 event_inherited();
 
 //# Visible 설정 
-visible = (shop_page < 1);
+visible = (shop_page < 3);
