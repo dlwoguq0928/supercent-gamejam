@@ -61,6 +61,7 @@ if (room == rm_game)
 		var ratio = distance_now/distance_max;
 		draw_set_colour(c_white);
 		draw_sprite(spr_distbar,0,360,120);
+		draw_sprite_part(spr_distbar,1,0,0,27+523*ratio-2,62,360-577/2,120-62/2);
 		draw_sprite(spr_distbar_tokens,gameval.character_selected,360-262+524*ratio,120);
 	});
 	
