@@ -4,4 +4,4 @@
 
 globalvar dev;
 dev = {};
-//dev.debug_mode = true;
+dev.debug_mode = false;
