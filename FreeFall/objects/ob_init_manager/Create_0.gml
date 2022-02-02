@@ -7,7 +7,7 @@ globalvar sysval;
 sysval = {
 	save_path: "game.data",
 	settings_save_path: "game_settings.data",
-	game_package: "com.reborn.fallingdown",
+	game_package: "com.reborn.freefall",
 	store_url: "",
 };
 sysval.store_url = "https://play.google.com/store/apps/details?id="+sysval.game_package;

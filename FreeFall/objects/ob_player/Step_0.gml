@@ -21,7 +21,8 @@ and (game_status == 1)
 	}
 
 	// 점프
-	if mouse_check_button_pressed(mb_left)
+	if mouse_check_button_pressed(mb_left) && (settval.control_type == 1)
+	or mouse_check_button_released(mb_left) && (settval.control_type == 0)
 	{
 		if (jump_gage >= jump_gage_required)
 		{
