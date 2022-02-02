@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_btn",
-    "path": "sprites/spr_btn/spr_btn.yy",
+    "name": "spr_control_0",
+    "path": "sprites/spr_control_0/spr_control_0.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "ob_parent_btn",
-    "path": "objects/ob_parent_btn/ob_parent_btn.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -34,7 +31,7 @@
     "path": "folders/Objects/common settings/rm_settings.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ob_btn_setting_toggle_2",
+  "name": "ob_btn_setting_toggle_0",
   "tags": [],
   "resourceType": "GMObject",
 }

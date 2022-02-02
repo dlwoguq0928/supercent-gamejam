@@ -9,6 +9,7 @@ if (room == rm_settings)
 		draw_macro(fa_middle, fa_center, c_white, 32, function() {
 			draw_text(room_width/2,364,"Sound");
 			draw_text(room_width/2,620,"Haptics");
+			draw_text(room_width/2,876,"Controls");
 		});
 	});
 }

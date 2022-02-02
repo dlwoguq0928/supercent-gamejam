@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_btn",
-    "path": "sprites/spr_btn/spr_btn.yy",
+    "name": "spr_control_1",
+    "path": "sprites/spr_control_1/spr_control_1.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "ob_parent_btn",
-    "path": "objects/ob_parent_btn/ob_parent_btn.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
