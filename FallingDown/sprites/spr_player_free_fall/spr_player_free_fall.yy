@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "main",
-    "path": "folders/Sprites/main.yy",
+    "name": "backgrounds",
+    "path": "folders/Sprites/main/backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player_free_fall",

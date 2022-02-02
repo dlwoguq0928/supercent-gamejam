@@ -29,6 +29,7 @@ and (game_status == 1)
 		
 			jump = true;
 			sprite_index = my_sprite_jump;
+			image_index = 0;
 			//gravity = -0.1;
 			alarm[0] = room_speed*0.5;
 			
