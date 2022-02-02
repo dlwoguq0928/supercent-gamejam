@@ -60,7 +60,7 @@ and (game_status == 1)
 	if (settval.control_type == 0)
 	{
 		var delta = mouse_x - mouse_x_prev[9];
-		if (abs(delta) >= 1) hspeed = sign(delta)*12;
+		if (abs(delta) >= 1) hspeed = sign(delta)*8;
 		else hspeed = 0;
 		mouse_x_prev[0] = mouse_x;
 		for(i=1;i<10;i++)
@@ -73,7 +73,7 @@ and (game_status == 1)
 	if (settval.control_type == 1)
 	{
 		var delta = -device_get_tilt_x();
-		if (abs(delta) >= 0.02) hspeed = sign(delta)*12;
+		if (abs(delta) >= 0.02) hspeed = sign(delta)*8;
 		else hspeed = 0;
 	}
 	

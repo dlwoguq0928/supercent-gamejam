@@ -51,7 +51,7 @@ if (btn_status) and (gameval.character_selected == character_index)
 else
 {
 	image_index = 0;
-	visible = false;
+	if (btn_status) visible = false;
 }
 
 //shop page scroll
